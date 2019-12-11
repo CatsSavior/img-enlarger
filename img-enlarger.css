@@ -1,7 +1,26 @@
 .my-class{
-position: fixed;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.svg-object{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  right: 0;;
+  margin: 0
+  padding: 0
+}
+
+video {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
 }
