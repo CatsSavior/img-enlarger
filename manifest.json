@@ -13,7 +13,8 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["img-enlarger.css"]
+      "css": ["img-enlarger.css"],
+      "js": ["cookie.js"]
     }
   ]
 
